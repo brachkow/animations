@@ -1,0 +1,65 @@
+@mixin fade {
+  &_Fade {
+    animation-name: FadeIn;
+    @keyframes FadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+  }
+  &_FadeTop {
+    animation-name: FadeTop;
+    @keyframes FadeTop {
+      from {
+        opacity: 0;
+        transform: translateY(-100%);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0%);
+      }
+    }
+  }
+  &_FadeRight {
+    animation-name: FadeRight;
+    @keyframes FadeRight {
+      from {
+        opacity: 0;
+        transform: translateX(100%);
+      }
+      to {
+        opacity: 1;
+        transform: translateX(0%);
+      }
+    }
+  }
+  &_FadeBottom {
+    animation-name: FadeBottom;
+    @keyframes FadeBottom {
+      from {
+        opacity: 0;
+        transform: translateY(100%);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0%);
+      }
+    }
+  }
+  &_FadeLeft {
+    animation-name: FadeLeft;
+    @keyframes FadeLeft {
+      from {
+        opacity: 0;
+        transform: translateX(-100%);
+      }
+      to {
+        opacity: 1;
+        transform: translateX(0%);
+      }
+    }
+  }
+}

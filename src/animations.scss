@@ -21,4 +21,7 @@
       animation-direction: reverse;
     }
   }
+  &_Type {
+    @include fade;
+  }
 }
