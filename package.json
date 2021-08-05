@@ -1,0 +1,25 @@
+{
+  "name": "@brachkow/animations",
+  "version": "0.0.0",
+  "main": "dist/animations.css",
+  "license": "MIT",
+  "scripts": {
+    "build": "sass ./src/animations.scss ./dist/animations.css",
+    "lint": "stylelint \"src/*.scss\"",
+    "release": "yarn build; git add dist/; standard-version --no-verify"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^13.1.0",
+    "@commitlint/config-conventional": "^13.1.0",
+    "husky": "^7.0.1",
+    "prettier": "^2.3.2",
+    "sass": "^1.37.5",
+    "standard-version": "^9.3.1",
+    "stylelint": "^13.13.1",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-recommended": "^5.0.0",
+    "stylelint-config-recommended-scss": "^4.3.0",
+    "stylelint-scss": "^3.20.1"
+  },
+  "dependencies": {}
+}

@@ -1,0 +1,24 @@
+@import 'fade';
+
+.Animation {
+  animation-duration: 300ms;
+  &_Speed {
+    &_Quick {
+      animation-duration: 100ms;
+    }
+    &_Normal {
+      animation-duration: 300ms;
+    }
+    &_Long {
+      animation-duration: 600ms;
+    }
+  }
+  &_Direction {
+    &_In {
+      animation-direction: normal;
+    }
+    &_Out {
+      animation-direction: reverse;
+    }
+  }
+}
