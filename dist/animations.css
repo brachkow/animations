@@ -1,0 +1,83 @@
+.Animation {
+  animation-duration: 300ms;
+}
+.Animation_Speed_Quick {
+  animation-duration: 100ms;
+}
+.Animation_Speed_Normal {
+  animation-duration: 300ms;
+}
+.Animation_Speed_Long {
+  animation-duration: 600ms;
+}
+.Animation_Direction_In {
+  animation-direction: normal;
+}
+.Animation_Direction_Out {
+  animation-direction: reverse;
+}
+.Animation_Type_Fade {
+  animation-name: FadeIn;
+}
+@keyframes FadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.Animation_Type_FadeTop {
+  animation-name: FadeTop;
+}
+@keyframes FadeTop {
+  from {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+.Animation_Type_FadeRight {
+  animation-name: FadeRight;
+}
+@keyframes FadeRight {
+  from {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+.Animation_Type_FadeBottom {
+  animation-name: FadeBottom;
+}
+@keyframes FadeBottom {
+  from {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+.Animation_Type_FadeLeft {
+  animation-name: FadeLeft;
+}
+@keyframes FadeLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+
+/*# sourceMappingURL=animations.css.map */
