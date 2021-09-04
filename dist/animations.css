@@ -1,5 +1,6 @@
 .Animation {
   animation-duration: 300ms;
+  animation-timing-function: linear;
 }
 .Animation_Speed_Quick {
   animation-duration: 100ms;
@@ -15,6 +16,21 @@
 }
 .Animation_Direction_Out {
   animation-direction: reverse;
+}
+.Animation_Easing_Ease {
+  animation-timing-function: ease;
+}
+.Animation_Easing_EaseIn {
+  animation-timing-function: ease-in;
+}
+.Animation_Easing_EaseOut {
+  animation-timing-function: ease-out;
+}
+.Animation_Easing_EaseInOut {
+  animation-timing-function: ease-in-out;
+}
+.Animation_Easing_Linear {
+  animation-timing-function: linear;
 }
 .Animation_Type_Fade {
   animation-name: FadeIn;
