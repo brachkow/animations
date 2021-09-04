@@ -1,0 +1,13 @@
+@mixin speed {
+  &_Speed {
+    &_Quick {
+      animation-duration: 100ms;
+    }
+    &_Normal {
+      animation-duration: 300ms;
+    }
+    &_Long {
+      animation-duration: 600ms;
+    }
+  }
+}
