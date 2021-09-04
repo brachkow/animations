@@ -21,6 +21,23 @@
       animation-direction: reverse;
     }
   }
+  &_Easing {
+    &_Ease {
+      animation-timing-function: ease;
+    }
+    &_EaseIn {
+      animation-timing-function: ease-in;
+    }
+    &_EaseOut {
+      animation-timing-function: ease-out;
+    }
+    &_EaseInOut {
+      animation-timing-function: ease-in-out;
+    }
+    &_Linear {
+      animation-timing-function: linear;
+    }
+  }
   &_Type {
     @include fade;
   }
