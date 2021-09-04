@@ -6,6 +6,7 @@
   "scripts": {
     "build": "sass ./src/animations.scss ./dist/animations.css",
     "lint": "stylelint --fix \"src/**/*.scss\"",
+    "format": "prettier --write .",
     "release": "yarn build; git add dist/; standard-version --no-verify"
   },
   "devDependencies": {
