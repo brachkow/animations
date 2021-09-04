@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "build": "sass ./src/animations.scss ./dist/animations.css",
-    "lint": "stylelint \"src/**/*.scss\"",
+    "lint": "stylelint --fix \"src/**/*.scss\"",
     "release": "yarn build; git add dist/; standard-version --no-verify"
   },
   "devDependencies": {
