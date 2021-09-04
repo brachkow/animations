@@ -8,6 +8,7 @@
 
 .Animation {
   animation-duration: 300ms;
+  animation-timing-function: linear;
   @include speed;
   @include direction;
   @include easing;
