@@ -1,43 +1,16 @@
+// Styles
 @import 'styles/fade';
+
+// Options
+@import 'options/speed';
+@import 'options/easing';
+@import 'options/direction';
 
 .Animation {
   animation-duration: 300ms;
-  &_Speed {
-    &_Quick {
-      animation-duration: 100ms;
-    }
-    &_Normal {
-      animation-duration: 300ms;
-    }
-    &_Long {
-      animation-duration: 600ms;
-    }
-  }
-  &_Direction {
-    &_In {
-      animation-direction: normal;
-    }
-    &_Out {
-      animation-direction: reverse;
-    }
-  }
-  &_Easing {
-    &_Ease {
-      animation-timing-function: ease;
-    }
-    &_EaseIn {
-      animation-timing-function: ease-in;
-    }
-    &_EaseOut {
-      animation-timing-function: ease-out;
-    }
-    &_EaseInOut {
-      animation-timing-function: ease-in-out;
-    }
-    &_Linear {
-      animation-timing-function: linear;
-    }
-  }
+  @include speed;
+  @include direction;
+  @include easing;
   &_Type {
     @include fade;
   }

@@ -1,0 +1,10 @@
+@mixin direction {
+  &_Direction {
+    &_In {
+      animation-direction: normal;
+    }
+    &_Out {
+      animation-direction: reverse;
+    }
+  }
+}
